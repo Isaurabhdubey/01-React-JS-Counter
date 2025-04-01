@@ -1,5 +1,6 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "01-React-JS-Counter",
+  "homepage": "https://Isaurabhdubey.github.io/01-React-JS-Counter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,6 +18,7 @@
     "@eslint/js": "^9.22.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",
