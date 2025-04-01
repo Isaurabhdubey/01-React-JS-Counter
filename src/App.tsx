@@ -8,7 +8,7 @@ function App() {
   let [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    let interval;
+    let interval: number | undefined;
     if (isActive) {
       interval = setInterval(() => {
         setCount((prevCount) => prevCount + 1);
@@ -23,9 +23,14 @@ function App() {
 
   return (
     <>
+    <div className="margin-10px">
+      <span className="button round-3">{count}</span>
+    </div>
+    <div className="margin-10px">
       <button onClick={() => setIsActive(true)}>Click Me</button>
       <button onClick={() => setIsActive(false)}>Reset</button>
-      <span>{count}</span>
+    </div>
+      
     </>
   );
 }
